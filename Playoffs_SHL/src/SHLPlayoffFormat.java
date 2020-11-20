@@ -11,8 +11,8 @@ import java.io.FileWriter;
 public class SHLPlayoffFormat {
    public static void main(String[] args) {
       String MySQLURL = "jdbc:mysql://localhost:3306/shl_dump?allowPublicKeyRetrieval=true&useSSL=false";
-      String databseUserName = "root";
-      String databasePassword = "luketd";
+      String databseUserName = "username";
+      String databasePassword = "password";
       Connection con = null;
       try {
     	  int league = 1;
